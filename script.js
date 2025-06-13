@@ -7,7 +7,7 @@ function Car(make, model) {
 // Add getMakeModel method to Car's prototype
 Car.prototype.getMakeModel = function () {
 	return `${this.make} $ {this.model}`;
-}
+};
 
 // SportsCar constructor Function
 function SportsCar(make, model, topSpeed) {
@@ -25,7 +25,8 @@ SportsCar.prototype.constructor = SportsCar;
 // Add getTopSpeed method to SportsCar prototype
 SportsCar.prototype.getTopSpped = function () {
 	return this.topSpeed;
-}
+};
+
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
