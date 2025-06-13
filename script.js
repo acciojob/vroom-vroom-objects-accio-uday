@@ -6,7 +6,7 @@ function Car(make, model) {
 
 // Add getMakeModel method to Car's prototype
 Car.prototype.getMakeModel = function () {
-	return `${this.make} $ {this.model}`;
+	return `${this.make} ${this.model}`;
 };
 
 // SportsCar constructor Function
@@ -30,7 +30,7 @@ SportsCar.prototype.getTopSpped = function () {
 // Example usage:
 
 const car = new SportsCar('Ferrari', 'BMW', 200);
-console.log(car.getMaleMdel());  // output: Ferrari BMW
+console.log(car.getMakeMdel());  // output: Ferrari BMW
 console.log(car.getTopSpeed());  // output: 200
 
 
