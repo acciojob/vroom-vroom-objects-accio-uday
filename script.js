@@ -27,6 +27,13 @@ SportsCar.prototype.getTopSpped = function () {
 	return this.topSpeed;
 };
 
+// Example usage:
+
+const car = new SportsCar('Ferrari', 'BMW', 200);
+console.log(car.getMaleMdel());  // output: Ferrari BMW
+console.log(car.getTopSpeed());  // output: 200
+
+
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
