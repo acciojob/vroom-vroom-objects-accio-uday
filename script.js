@@ -23,14 +23,14 @@ SportsCar.prototype = Object.create(Car.prototype);
 SportsCar.prototype.constructor = SportsCar;
 
 // Add getTopSpeed method to SportsCar prototype
-SportsCar.prototype.getTopSpped = function () {
+SportsCar.prototype.getTopSpeed = function () {
 	return this.topSpeed;
 };
 
 // Example usage:
 
 const car = new SportsCar('Ferrari', 'BMW', 200);
-console.log(car.getMakeMdel());  // output: Ferrari BMW
+console.log(car.getMakeModel());  // output: Ferrari BMW
 console.log(car.getTopSpeed());  // output: 200
 
 
